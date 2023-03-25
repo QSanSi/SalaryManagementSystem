@@ -1,0 +1,50 @@
+.table_head {
+	background: url("skin/bg.gif") repeat-x;
+	height: 22px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 12px;
+	text-align: center;
+	table-layout: fixed;
+    word-break: break-all;
+}
+
+table th {
+	vertical-align: baseline;
+	padding: 5px 15px 5px 6px;
+	border: 1px solid #3F3F3F;
+}
+
+.list td{
+	border:1px solid #aaa;
+	height: 22px;
+}
+
+td {
+	height: 22px;
+}
+
+img {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+	color: #075B92;
+}
+
+.table_top {
+	border: 1px solid #5BA8DE;
+	margin-top: 5px;
+}
+
+.top {
+	background: url(index/right_table_bg.jpg) repeat-x;
+	height: 26px;
+	border-bottom: 1px solid #5BA8DE;
+	text-align: left;
+	color: #075B92;
+}

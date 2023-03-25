@@ -1,0 +1,120 @@
+/* CSS Document */
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	font: 12px "ËÎÌו";
+	color: #075B92;
+	overflow: hidden;
+}
+
+table {
+	font-size: 12px;
+}
+
+table.list_dept {
+	font-size: 15px;
+}
+
+table.list_dept th {
+	text-align: right;
+	width: 90px;
+}
+
+table.lsit_dept td {
+	height: 22px;
+	text-align: left;
+}
+
+table.list_emp {
+	font-size: 15px;
+}
+
+table.list_emp th {
+	text-align: right;
+	width: 75px;
+}
+
+table.lsit_emp td {
+	height: 22px;
+	text-align: left;
+}
+
+table.list {
+	font-size: 15px;
+}
+
+table.list th {
+	text-align: center;
+	width: 75px;
+}
+
+table.lsit td {
+	height: 22px;
+	text-align: left;
+}
+
+table.list_stand {
+	font-size: 15px;
+}
+
+table.list_stand th {
+	text-align: right;
+	width: 75px;
+}
+
+table.lsit_stand td {
+	height: 22px;
+	text-align: left;
+}
+
+table.list_insur {
+	font-size: 15px;
+}
+
+table.list_insur th {
+	text-align: right;
+	width: 75px;
+}
+
+table.list_insur td {
+	height: 22px;
+	text-align: left;
+}
+
+table.list_user {
+	font-size: 15px;
+}
+
+table.list_user th {
+	text-align: center;
+	width: 110px;
+}
+
+table.lsit_user td {
+	height: 22px;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+	color: #075B92;
+}
+
+.table_top {
+	border: 1px solid #5BA8DE;
+	margin-top: 5px;
+}
+
+.top {
+	background: url(../images/index/right_table_bg.jpg) repeat-x;
+	height: 26px;
+	border-bottom: 1px solid #5BA8DE;
+	text-align: left;
+}
+
+.td_top {
+	color: #075B92;
+}

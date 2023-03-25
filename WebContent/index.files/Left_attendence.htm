@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title>无标题页</title>
+<style type=text/css>
+{
+font-size
+:
+12px
+
+
+}
+#menuTree A {
+	color: #566984;
+	text-decoration: none
+}
+</style>
+<script src="Left.files/TreeNode.js" type=text/javascript></script>
+<script src="Left.files/Tree.js" type=text/javascript></script>
+</head>
+</head>
+<body
+    style="background-position-y: -120px; background-image: url(../images/bg.gif); background-repeat: repeat-x">
+	<table height="100%" cellspacing=0 cellpadding=0 width="100%">
+		<tbody>
+			<tr>
+				<td width=10 height=29><img src="Left.files/bg_left_tl.gif"></td>
+				<td
+					style="font-size: 18px; background-image: url(../images/bg_left_tc.gif); color: white; font-family: system">功能菜单</td>
+				<td width=10><img src="Left.files/bg_left_tr.gif"></td>
+			</tr>
+			<tr>
+				<td style="background-image: url(../images/bg_left_ls.gif)"></td>
+				<td id=menuTree
+					style="padding-right: 10px; padding-left: 10px; padding-bottom: 10px; padding-top: 10px; height: 100%; background-color: white"
+					valign=top></td>
+				<td style="background-image: url(../images/bg_left_rs.gif)"></td>
+			</tr>
+			<tr>
+				<td width=10><img src="Left.files/bg_left_bl.gif"></td>
+				<td style="background-image: url(../images/bg_left_bc.gif)"></td>
+				<td width=10><img src="Left.files/bg_left_br.gif"></td>
+			</tr>
+		</tbody>
+	</table>
+	<script type=text/javascript>
+	    var fun7 = new TreeNode('出勤管理');
+	    var fun8 = new TreeNode('考勤信息', '../salary/attendenceList.action','tree_node.gif', null, 'tree_node.gif', null);
+	    fun7.add(fun8);
+	    var fun10 = new TreeNode('考勤奖罚', '../salary/attendenceSet!load.action','tree_node.gif', null, 'tree_node.gif', null);
+	    fun7.add(fun10);
+	    var zhanghu = new TreeNode('用户管理');
+	    var password = new TreeNode('密码修改', '../user/updatePassword.jsp','tree_node.gif', null, 'tree_node.gif', null);
+		zhanghu.add(password);
+	    tree2 = new Tree(fun7);
+	    tree2.show('menuTree')
+	    new Tree(zhanghu).show('menuTree');
+	</script>
+</body>
+</html>
